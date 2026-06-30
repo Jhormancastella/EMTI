@@ -148,6 +148,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    const btnPSE = document.getElementById('btnPSE');
+    if (btnPSE) {
+        btnPSE.addEventListener('click', handlePSEPayment);
+    }
+
     // Menú móvil
     const mobileMenuBtn = document.querySelector('.mobile-menu');
     const navLinks = document.querySelector('.nav-links');
