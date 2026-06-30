@@ -1,0 +1,22 @@
+/* Archivo principal CSS - Importa todos los módulos */
+
+/* Variables primero */
+@import "variables.css";
+
+/* Base y utilidades */
+@import "base.css";
+@import "utilities.css";
+
+/* Componentes estructurales */
+@import "header.css";
+@import "hero.css";
+
+/* Secciones de contenido */
+@import "sections.css";
+@import "gallery.css";
+@import "contact.css";
+@import "footer.css";
+
+/* Responsive y modo oscuro */
+@import "responsive.css";
+@import "dark-mode.css";

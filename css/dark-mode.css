@@ -1,0 +1,92 @@
+/* Estilos adicionales para modo oscuro */
+body.dark-mode .about,
+body.dark-mode .services,
+body.dark-mode .gallery,
+body.dark-mode .gallery-videos,
+body.dark-mode .contact {
+    background-color: var(--gris-claro);
+}
+
+body.dark-mode .service-card,
+body.dark-mode .contact-info-card,
+body.dark-mode .video-card {
+    background-color: var(--blanco);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    color: #e5e7eb;
+}
+
+body.dark-mode .service-card h3,
+body.dark-mode .contact-info-card h3 {
+    color: #60a5fa;
+}
+
+body.dark-mode .contact-item div strong {
+    color: #93c5fd;
+}
+
+body.dark-mode footer {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+body.dark-mode .stat-item {
+    background-color: #374151;
+    color: #e5e7eb;
+}
+
+body.dark-mode .stat-item h4 {
+    color: #60a5fa;
+}
+
+body.dark-mode .mission {
+    background: linear-gradient(135deg, #1e3a5f, #1f2937);
+}
+
+body.dark-mode .vision {
+    background: linear-gradient(135deg, #14532d, #1f2937);
+}
+
+body.dark-mode .mv-card h3 {
+    color: #60a5fa;
+}
+
+body.dark-mode .payment-card {
+    background: rgba(0,0,0,0.2);
+}
+
+body.dark-mode .payment-features {
+    background: rgba(0,0,0,0.2);
+}
+
+body.dark-mode .btn-secondary {
+    background: transparent;
+    color: var(--blanco);
+    border-color: var(--blanco);
+}
+
+body.dark-mode .btn-secondary:hover {
+    background: var(--verde-primario);
+    border-color: var(--verde-primario);
+    color: white;
+}
+
+/* Ajustes para modo oscuro en más elementos */
+body.dark-mode .about-image-placeholder,
+body.dark-mode .map-fallback {
+    background: linear-gradient(135deg, #1e3a5f, #14532d);
+}
+
+body.dark-mode .section-title {
+    color: var(--azul-claro);
+}
+
+body.dark-mode .section-subtitle {
+    color: #9ca3af;
+}
+
+body.dark-mode .about-text h3 {
+    color: #60a5fa;
+}
+
+body.dark-mode .about-text p {
+    color: #d1d5db;
+}
